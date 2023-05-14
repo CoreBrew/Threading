@@ -18,7 +18,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\CoreBrew.Threading\CoreBrew.Threading.csproj" />
+      <ProjectReference Include="..\..\Src\Threading\CoreBrew.Threading\CoreBrew.Threading.csproj" />
     </ItemGroup>
 
 </Project>
