@@ -5,10 +5,23 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <LangVersion>11</LangVersion>
+        <Version>0.0.1</Version>
+        <Title>CoreBrew.Threading</Title>
+        <Authors>CoreBrew</Authors>
+        <Description>Package containing CoreBrew destilled exentions and classes to make interaction with threading objects easier</Description>
+        <Copyright>CoreBrew</Copyright>
+        <PackageProjectUrl>https://github.com/CoreBrew/Threading</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/CoreBrew/Threading</RepositoryUrl>
+        <PackageIcon>CoreBrew_96.png</PackageIcon>
+        <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+        <PackageReadmeFile>README.md</PackageReadmeFile>        
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="NETStandard.Library" Version="2.0.3" />
+        <PackageReference Include="NETStandard.Library" Version="2.0.3" />
+        <None Include="..\..\..\LICENSE.md" Pack="true" PackagePath="" />
+        <None Include="..\..\..\README.md" Pack="true" PackagePath="" />
+        <None Include="CoreBrew_96.png" Pack="true" PackagePath=""/>
     </ItemGroup>
 
 </Project>
